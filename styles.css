@@ -1,0 +1,144 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Set up the body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+    padding: 0 2rem;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: #d32f2f; /* Red color */
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.hero-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #d32f2f; /* Red color */
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.download-button:hover {
+    background: #a72828;
+}
+
+/* Features section styling */
+.features {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features ul {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.features li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.features strong {
+    color: #d32f2f;
+}
+
+/* Call-to-action section styling */
+.call-to-action {
+    background: #d32f2f; /* Red color */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.call-to-action p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
